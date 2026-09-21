@@ -3,7 +3,11 @@
 **Collection date:** September 21, 2026  
 **Purpose:** These files bring together the original Cricket conversations that can be preserved, the discussion record available in this chat, relevant historical project material, and clearly identified editorial notes. **Together, they are source material for reviewing and eventually creating the Cricket department / Cricket coordination blueprint. They are not that blueprint, an approved implementation specification, or proof that the proposed features already work.** No design proposal becomes an accepted decision merely because it appears in this collection.
 
-## READ THIS FIRST: original conversations and changing role names
+## READ THIS FIRST: foundational discussion and changing role names
+
+**Start with `00_FOUNDATIONAL_DISCUSSION_RECOVERED.md` before the numbered conversation excerpts.** The Cricket discussion did not begin with the participants talking to one another. It began with the separation of central Jeremy’s existing roles from Jeremy Cricket and the newer personal Cricket instances. The new foundational document restores the available **substantive decisions and relationships**: Jeremy’s four primary conversational partners, the purpose of Jeremy Cricket, participant-specific private Crickets, communications, escalation, and the separate roles of Security, Blackbox, Alex, E-Pete, Pub Manager and Switchblade. That source material is also inserted before section 01 in the conversation record. The original early word-for-word messages were not retrieved, so the reconstruction is labeled as such rather than attributed as direct speech.
+
+## Original conversations and changing role names
 
 **Keep original conversations original.** Preserve original wording, speakers, order, corrections, repetitions, and dates wherever original source text is available. Never silently rewrite an older conversation or code comment to fit our newer understanding; put clarification, terminology mapping, and later decisions in a separate editorial note or this README. Keep a verbatim transcript distinct from a summary, excerpt, reconstruction, or interpretation. The original chat and original source documents remain authoritative for what was *actually said or written* at the time.
 
@@ -31,10 +35,11 @@ A participant speaks to **their own Cricket**. Individual Crickets can communica
 
 ## Contents and how to review them
 
-1. `01_CONVERSATION_RECORD.md` — chronological review record, with available user utterances marked **verbatim** and assistant turns marked **editorial recap**. Not a complete original chat export; consult the original chat for full wording.
-2. `02_GATHERED_DESIGN_NOTES.md` — collected decisions, examples, boundaries, suggestions, rejected names, and open questions. **Editorial working notes, not original conversations or adopted blueprint.**
-3. `03_HISTORICAL_CONTEXT_AND_CODE.md` — historical material and located source references; preserve the old labels verbatim while applying the going-forward role distinctions above.
-4. `04_SOURCES_AND_LIMITATIONS.md` — provenance and what the available record can and cannot establish.
+1. `00_FOUNDATIONAL_DISCUSSION_RECOVERED.md` — detailed missing introductory **design content**, with no invented verbatim dialogue. Read this first to understand the origin and the Jeremy/Cricket split.
+2. `01_CONVERSATION_RECORD.md` — chronological review record, with available user utterances marked **verbatim** and assistant turns marked **editorial recap**. Not a complete original chat export; consult the original chat for full wording.
+3. `02_GATHERED_DESIGN_NOTES.md` — collected decisions, examples, boundaries, suggestions, rejected names, and open questions. **Editorial working notes, not original conversations or adopted blueprint.**
+4. `03_HISTORICAL_CONTEXT_AND_CODE.md` — historical material and located source references; preserve the old labels verbatim while applying the going-forward role distinctions above.
+5. `04_SOURCES_AND_LIMITATIONS.md` — provenance and what the available record can and cannot establish.
 
 ## Preservation and implementation status
 
@@ -42,4 +47,4 @@ A participant speaks to **their own Cricket**. Individual Crickets can communica
 - Original participants' exact statements take precedence over later assistant paraphrases. Earlier assistant ideas may have been amended or rejected by Curtsey in later turns.
 - Different Crickets are separate personal instances of the same character; common character identity is not common private memory.
 - This collection does **not** validate that the proposed personal Cricket Network exists in the current canonical Reach build. Older `JeremyCricket`-named code must be audited in its own time and context before reuse.
-- No PubCast source files or connected repositories were changed for this collection; no Cricket Network implementation tests were performed.
+- This documentation collection has been committed to `whatsupjosie/Pubcast-Reach`; no PubCast application source files or Cricket Network implementation code was modified, and no Cricket Network implementation tests were performed.
